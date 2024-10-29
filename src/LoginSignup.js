@@ -76,7 +76,7 @@ const LoginSignup = () => {
         // Redirect based on role
         if (userRole === "retailer") {
             alert("Login successful! Redirecting to Admin Page...");
-            navigate('/admin'); // Redirect to Admin page
+            navigate('/RetailerDashboard'); // Redirect to Admin page
         } else if(userRole === "customer") {
             alert("Login successful! Redirecting to Home Page...");
             navigate('/home'); // Redirect to Home page for other roles
